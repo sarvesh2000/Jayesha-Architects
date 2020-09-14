@@ -340,6 +340,7 @@
         var $grid = $('.grid').isotope({
             itemSelector: '.project',
             percentPosition: true,
+            filter: '.home', // to show the items which we want on initial page load
             masonry: {
                 // use outer width of grid-sizer for columnWidth
                 columnWidth: '.project',
