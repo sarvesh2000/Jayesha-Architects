@@ -10,4 +10,4 @@ $output 	= "Name: ".$fname."\n\nSubject: ".$subject."\n\nMessage: ".$msg;
 $to 		= 'sarvesh4232@gmail.com';
 $headers	= 'FROM: "'.$email.'"';
 
-$send = mail($to, $fname, $output."\n\n***This message has been sent from Archirio", $headers);
+$send = mail($to, $fname, $output."\n\n***This message has been sent from Jayesha Architects", $headers);
