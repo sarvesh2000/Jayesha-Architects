@@ -987,6 +987,14 @@ a#scrollUp:hover {
     padding: 20px 0px 50px;
     text-align: center;
 }
+.person-content{
+    position: absolute;
+    left: 0;
+    bottom: -130px;
+    width: 100%;
+    padding: 20px 0px 50px;
+    text-align: center;
+}
 .team-wrap:hover .team-content {
     bottom: 0px;
     background: transparent;
@@ -996,6 +1004,15 @@ a#scrollUp:hover {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 0px;
+}
+.person-content h4{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.person-content p{
+    margin-bottom: 20px;
 }
 .team-content p {
     margin-bottom: 20px;
