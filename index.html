@@ -1273,11 +1273,6 @@
     <!-- worker -->
     <script>
         var worker = new Worker("assets/js/worker.js");
-
-        worker.addEventListener("message", function(e){
-            alert("Hello " + e.data);
-        });
-            
         worker.postMessage(true);
     </script>
     <script>
