@@ -766,6 +766,22 @@
  .project-area {
      padding: 120px 0px 90px;
  }
+ .section-title-project {
+    margin-bottom: 40px;
+}
+.section-title-project h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #333132;
+}
+.section-title-project h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #333132;
+}
  .project-menu button {
      border: 1px solid #cee002;
      padding: 7px 20px;
