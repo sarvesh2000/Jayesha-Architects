@@ -161,7 +161,7 @@
      margin-bottom: 40px;
  }
  .bg-1 {
-     background: #3d781e;
+     background: #708238;
  }
  .bg-fff {
      background: #fff;
@@ -211,7 +211,7 @@
      text-transform: uppercase;
      padding: 5px 10px;
      font-weight: 500;
-     color: #3d781e;
+     color: #708238;
  }
  .mainmenu ul li.active>a,
  .mainmenu ul li:hover>a {
@@ -248,7 +248,7 @@
  }
  .mainmenu ul li>ul li:hover a {
      background: transparent;
-     color: #3d781e;
+     color: #708238;
      padding-left: 20px;
  }
  .search-wrapper ul li {
@@ -346,7 +346,7 @@
      display: block;
      height: 2px;
      width: 25px;
-     background: #3d781e;
+     background: #708238;
  }
  .responsive-menu-wrap .slicknav_nav {
      background: #f4fcdc none repeat scroll 0 0;
@@ -365,7 +365,7 @@
      position: relative;
  }
  .slicknav_nav a {
-     color: #3d781e;
+     color: #708238;
      text-decoration: none;
      text-transform: capitalize;
  }
@@ -376,7 +376,7 @@
      background: transparent none repeat scroll 0 0;
      border-radius: 0;
      text-shadow: 0px 3px 5px rgba(0, 0, 0, .5);
-     color: #3d781e;
+     color: #708238;
      font-weight: 800;
  }
  .responsive-menu-wrap .slicknav_nav .slicknav_row:hover {
@@ -385,7 +385,7 @@
  .responsive-menu-wrap .slicknav_nav .slicknav_arrow {
      font-size: 10px;
      margin: 5px;
-     color: #3d781e;
+     color: #708238;
  }
  .sticky-menu {
      width: 100%;
@@ -1032,7 +1032,7 @@
      font-size: 24px;
      text-transform: uppercase;
      margin-bottom: 0px;
-     color: #3d781e;
+     color: #708238;
  }
  .person-content h4{
      font-weight: 700;
@@ -1064,7 +1064,7 @@
 }
  .team-content p {
      margin-bottom: 20px;
-     color: #3d781e;
+     color: #708238;
  }
  .team-content ul li {
      display: inline-block;
@@ -1316,7 +1316,7 @@
      height: 25px;
      width: 25px;
      font-size: 14px;
-     border: 1px solid #3d781e;
+     border: 1px solid #708238;
      text-align: center;
      line-height: 24px;
      position: absolute;
@@ -1349,7 +1349,7 @@
  }
  .footer-menu ul li:hover:before {
      left: 5px;
-     color: #3d781e;
+     color: #708238;
  }
  .newsletter p {
      margin-bottom: 20px;
@@ -1836,7 +1836,7 @@
      bottom: 0;
      height: 40px;
      width: 40px;
-     background: #3d781e;
+     background: #708238;
      line-height: 40px;
      text-align: center;
      cursor: pointer;
