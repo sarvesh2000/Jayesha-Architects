@@ -426,9 +426,9 @@
             Email.send({
                 SecureToken : "1c5898ca-91da-4e17-abc5-0494c905ecb0",
                 To : 'jayeshaarchitects@gmail.com',
-                From : $("#email").val(),
-                Subject : "Contact Email from our website",
-                Body : $("#msg").val()
+                From : email,
+                Subject : subject,
+                Body : msg
                 }).then(
                     message => alert("mail sent successfully")
                 );
