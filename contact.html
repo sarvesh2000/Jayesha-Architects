@@ -41,6 +41,8 @@
             urlEndpoint : "https://ik.imagekit.io/1wdk66vou0",
         });
     </script>
+    <!-- Email Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -114,7 +116,7 @@
                 <div class="col-lg-8 col-12">
                     <div class="contact-form">
                         <div class="cf-msg"></div>
-                        <form action="mail.php" method="post" id="cf">
+                        <form onsubmit="sendEmail()" id="cf">
                             <div class="row">
                                 <div class="col-md-6 col-12">
                                     <input type="text" placeholder="Name" id="fname" name="fname">
@@ -220,6 +222,20 @@
     </script>
     <!-- main js -->
     <script src="assets/js/scripts.js"></script>
+    <!-- Email Sending Script -->
+    <script>
+        function sendEmail() {
+            Email.send({
+            SecureToken : "1c5898ca-91da-4e17-abc5-0494c905ecb0",
+            To : 'jayeshaarchitects@gmail.com',
+            From : $("#email").val(),
+            Subject : "Contact Email from our website",
+            Body : $("#msg").val()
+            }).then(
+                message => alert("mail sent successfully")
+            );
+        }
+        </script>
 </body>
 
 </html>
