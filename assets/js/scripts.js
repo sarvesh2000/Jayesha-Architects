@@ -425,7 +425,7 @@
             var values = "fname=" + fname + "&subject=" + subject + "&email=" + email + " &msg=" + msg;
             Email.send({
                 SecureToken : "1c5898ca-91da-4e17-abc5-0494c905ecb0",
-                To : 'jayeshaarchitects@gmail.com',
+                To : 'sarvesh4232@icloud.com',
                 From : email,
                 Subject : subject,
                 Body : msg
