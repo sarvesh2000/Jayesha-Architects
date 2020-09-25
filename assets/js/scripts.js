@@ -424,8 +424,8 @@
         if (fname != '' && email != '' && msg != '') {
             var values = "fname=" + fname + "&subject=" + subject + "&email=" + email + " &msg=" + msg;
             Email.send({
-                SecureToken : "1c5898ca-91da-4e17-abc5-0494c905ecb0",
-                To : 'sarvesh4232@icloud.com',
+                SecureToken : "c199e259-0904-4e45-9d61-233524d21dc2",
+                To : 'jayeshaarchitects@gmail.com',
                 From : email,
                 Subject : subject,
                 Body : msg
