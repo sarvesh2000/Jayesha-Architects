@@ -1043,6 +1043,25 @@
  .person-content p{
      margin-bottom: 20px;
  }
+ .person-content-1{
+    position: absolute;
+    left: 0;
+    bottom: -130px;
+    width: 100%;
+    padding: 20px 0px 50px;
+    text-align: center;
+}
+ .person-content-1 h4{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #313131 !important;
+}
+.person-content-1 p{
+    margin-bottom: 20px;
+    color: #313131 !important;
+}
  .team-content p {
      margin-bottom: 20px;
      color: #3d781e;
@@ -1229,8 +1248,11 @@
      margin: 10px 0px 20px;
  }
  .blog-content p {
-     color: #333132;
+     color: white;
  }
+ .blog-content-1 p{
+     color: #323131;
+ } 
  /*--------blog-area end---------*/
  
  /*--------brand-area start---------*/
@@ -1985,6 +2007,9 @@
  }
  /*--------breadcumb-area end--------*/
  /*about*/
+ .about-page-area{
+     color: #323131;
+ }
  .about-page-wrap h2 {
      text-transform: uppercase;
      font-size: 36px;
