@@ -423,15 +423,18 @@
 
         if (fname != '' && email != '' && msg != '') {
             var values = "fname=" + fname + "&subject=" + subject + "&email=" + email + " &msg=" + msg;
-            Email.send({
-                SecureToken : "c199e259-0904-4e45-9d61-233524d21dc2",
-                To : 'jayeshaarchitects@gmail.com',
-                From : email,
-                Subject : subject,
-                Body : msg
-                }).then(
-                    message => alert("mail sent successfully")
-                );
+            var templateParams = {
+                from_name: fname,
+                message: msg,
+                reply_to: email
+            };
+             
+            emailjs.send('service_wg5pj2a', 'template_go8yp5a', templateParams) //use your Service ID and Template ID
+                .then(function(response) {
+                   console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                   console.log('FAILED...', error);
+                });
         } else {
             $('.cf-msg').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please fillup the informations correctly.</div>')
         }
