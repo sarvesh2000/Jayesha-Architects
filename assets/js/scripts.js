@@ -423,22 +423,15 @@
 
         if (fname != '' && email != '' && msg != '') {
             var values = "fname=" + fname + "&subject=" + subject + "&email=" + email + " &msg=" + msg;
-            $.ajax({
-                type: "POST",
-                url: "mail.php",
-                data: values,
-                success: function() {
-                    $('#fname').val('');
-                    $('#subject').val('');
-                    $('#email').val('');
-                    $('#msg').val('');
-
-                    $('.cf-msg').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Email has been sent successfully.</div>');
-                    setTimeout(function() {
-                        $('.cf-msg').fadeOut('slow');
-                    }, 4000);
-                }
-            });
+            Email.send({
+                SecureToken : "1c5898ca-91da-4e17-abc5-0494c905ecb0",
+                To : 'jayeshaarchitects@gmail.com',
+                From : $("#email").val(),
+                Subject : "Contact Email from our website",
+                Body : $("#msg").val()
+                }).then(
+                    message => alert("mail sent successfully")
+                );
         } else {
             $('.cf-msg').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please fillup the informations correctly.</div>')
         }
