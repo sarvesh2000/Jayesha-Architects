@@ -726,8 +726,24 @@
      margin-bottom: 0px;
      color: white;
  }
+ .section-title-1 {
+    margin-bottom: 40px;
+}
+.section-title-1 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #313131;
+}
+.section-title-1 h1 {
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #313131;
+}
  .spacial-img {
      position: relative;
+     margin-top: 10em;
  }
  .spacial-wrap {
      padding: 60px 0px 30px;
